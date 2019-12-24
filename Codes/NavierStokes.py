@@ -1,6 +1,8 @@
 """
 @author: Maziar Raissi
 """
+import os
+os.environ['KMP_DUPLICATE_LIB_OK']='True'
 
 import tensorflow as tf
 import numpy as np
